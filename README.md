@@ -4,7 +4,7 @@
 
 1. pha(잠재적 위험이 있는 소행성) Y/N 이진분류
 2. orbit class(궤도 등급) 다중 클래스 분류
-3. moid(지구 궤도 최소 교차 거리) 회귀
+3. Diameter 회귀
 
 
 - 데이터 출처 : https://ssd.jpl.nasa.gov/sbdb_query.cgi#x
