@@ -13,6 +13,21 @@
 
 
 ## 결과
-![PHA 이진분류]
+
+### 1. PHA Classification
+| 앙상블 모델(RandomForest, XGBoost)가 가장 좋은 성능을 보여줌.
+| 앙상블, 서포트 벡터, 다층 퍼셉트론, 로지스틱 비교
+| StandardScaler로 스케일링 함.(앙상블 제외)
+
+
+### 2. Orbit Class Classification
+| 서포트 벡터, 다층 퍼셉트론, 로지스틱은 SMOTE로 오버샘플링 한 결과가 더 좋음
+| 앙상블은 오버샘플링 하지 않고도 다중 클래스를 잘 분류했음
+| StandardScaler 사용
+
+### 3. Diameter Regression
+| 소행성의 직경을 구함
+| 앙상블, 서포트벡터, 다층 퍼셉트론, 릿지, keras 딥러닝 비교
+| 랜덤 포레스트, MLP, keras 모델의 MSE가 가장 낮게 나왔는데 KFold 검증을 통해서 이상치의 영향을 찾았음
 
 
